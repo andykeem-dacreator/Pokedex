@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const pokemonCount = 151;
+  const pokemonCount = 493;
   const [pokedex, setPokedex] = useState({});
   const [selectedPokemon, setSelectedPokemon] = useState(1);
 
